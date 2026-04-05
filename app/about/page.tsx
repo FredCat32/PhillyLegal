@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { Shield, Scale, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About PhillyInjuryGuide',
+  title: 'About PhillyLegalGuide',
   description:
-    'PhillyInjuryGuide is an independent information resource helping Philadelphia residents understand their personal injury cases and find the right legal help.',
+    'PhillyLegalGuide is an independent information resource helping Philadelphia residents understand their personal injury cases and find the right legal help.',
 };
 
 export default function AboutPage() {
@@ -18,11 +18,11 @@ export default function AboutPage() {
       </p>
 
       <h1 className="text-3xl font-bold text-text-primary mb-4">
-        About PhillyInjuryGuide
+        About PhillyLegalGuide
       </h1>
 
       <p className="text-lg text-text-secondary leading-relaxed mb-8">
-        PhillyInjuryGuide is an independent information resource for Philadelphia residents
+        PhillyLegalGuide is an independent information resource for Philadelphia residents
         navigating personal injury situations. We are not a law firm.
       </p>
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
       <div className="prose-like text-text-secondary leading-relaxed space-y-4 mb-10">
         <h2 className="text-2xl font-bold text-text-primary">What We Do</h2>
         <p>
-          PhillyInjuryGuide helps Philadelphia residents understand what type of personal
+          PhillyLegalGuide helps Philadelphia residents understand what type of personal
           injury case they may have, what the relevant statutes of limitations are in
           Pennsylvania, what to expect from the legal process, and which Philadelphia firms
           specialise in different case types.
@@ -96,7 +96,7 @@ export default function AboutPage() {
 
       <div className="bg-bg-accent border border-border-brand rounded-card p-5">
         <p className="text-sm text-text-secondary leading-relaxed">
-          <strong className="text-text-primary">Disclaimer:</strong> PhillyInjuryGuide is an
+          <strong className="text-text-primary">Disclaimer:</strong> PhillyLegalGuide is an
           independent information resource and is not a law firm. Nothing on this site
           constitutes legal advice. Information is provided for general informational
           purposes only. Always consult a licensed Pennsylvania attorney regarding your

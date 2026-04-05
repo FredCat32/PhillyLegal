@@ -1,8 +1,8 @@
-# PhillyInjuryGuide
+# PhillyLegalGuide
 
 ## Overview
 
-PhillyInjuryGuide (phillylegalguide.com) is an independent information resource for Philadelphia, Pennsylvania residents who have been injured and need to understand what type of personal injury lawyer they need.
+PhillyLegalGuide (phillylegalguide.com) is an independent information resource for Philadelphia, Pennsylvania residents who have been injured and need to understand what type of personal injury lawyer they need.
 
 This site is NOT a law firm. It does not provide legal advice. It does not represent clients. It is a comparison and guide resource.
 
@@ -47,6 +47,6 @@ This site is NOT a law firm. It does not provide legal advice. It does not repre
 - /guide/how-to-choose — How to choose a personal injury lawyer
 - /guide/what-percentage — What percentage do lawyers take in PA
 - /guide/how-long — How long does a case take in PA
-- /about — About PhillyInjuryGuide
+- /about — About PhillyLegalGuide
 - /disclaimer — Legal disclaimer
 - /privacy — Privacy policy

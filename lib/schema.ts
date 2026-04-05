@@ -41,7 +41,7 @@ export function articleSchema({
     dateModified: dateModified || datePublished,
     publisher: {
       '@type': 'Organization',
-      name: 'PhillyInjuryGuide',
+      name: 'PhillyLegalGuide',
       url: 'https://phillylegalguide.com',
     },
   };

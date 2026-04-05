@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer',
-  description: 'Legal disclaimer for PhillyInjuryGuide — independent information resource, not a law firm.',
+  description: 'Legal disclaimer for PhillyLegalGuide — independent information resource, not a law firm.',
 };
 
 export default function DisclaimerPage() {
@@ -21,7 +21,7 @@ export default function DisclaimerPage() {
         <section>
           <h2 className="text-xl font-semibold text-text-primary mb-2">Not Legal Advice</h2>
           <p>
-            PhillyInjuryGuide is an independent information resource and is not a law firm.
+            PhillyLegalGuide is an independent information resource and is not a law firm.
             Nothing on this website constitutes legal advice. The information provided on
             this site is for general informational purposes only and should not be relied
             upon as legal advice for any individual situation.
@@ -52,7 +52,7 @@ export default function DisclaimerPage() {
         <section>
           <h2 className="text-xl font-semibold text-text-primary mb-2">Firm Listings</h2>
           <p>
-            Law firm listings on PhillyInjuryGuide are provided for informational purposes
+            Law firm listings on PhillyLegalGuide are provided for informational purposes
             only. We do not endorse any particular firm, guarantee the quality of their
             services, or verify the accuracy of their self-reported information. We are not
             responsible for the content of linked third-party websites.
@@ -77,7 +77,7 @@ export default function DisclaimerPage() {
         <section>
           <h2 className="text-xl font-semibold text-text-primary mb-2">No Liability</h2>
           <p>
-            PhillyInjuryGuide is not liable for any actions taken or not taken based on
+            PhillyLegalGuide is not liable for any actions taken or not taken based on
             information on this site, any errors or omissions in that information, or any
             losses or damages resulting from the use of this site.
           </p>

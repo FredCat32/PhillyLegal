@@ -28,7 +28,7 @@ export default function NavBar() {
               aria-hidden="true"
             />
             <span className="font-bold text-lg text-text-primary group-hover:text-brand transition-colors">
-              PhillyInjuryGuide
+              PhillyLegalGuide
             </span>
           </Link>
 

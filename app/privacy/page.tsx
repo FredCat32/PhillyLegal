@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for PhillyInjuryGuide.',
+  description: 'Privacy Policy for PhillyLegalGuide.',
 };
 
 export default function PrivacyPage() {
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold text-text-primary mb-2">Overview</h2>
           <p>
-            PhillyInjuryGuide ("we", "us", "our") is committed to protecting your privacy.
+            PhillyLegalGuide ("we", "us", "our") is committed to protecting your privacy.
             This Privacy Policy explains how we collect, use, and safeguard information when
             you visit phillylegalguide.com.
           </p>

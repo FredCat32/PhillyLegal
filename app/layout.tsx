@@ -11,15 +11,15 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com'
   ),
   title: {
-    template: '%s | PhillyInjuryGuide',
-    default: 'PhillyInjuryGuide — Find the Right Injury Lawyer in Philadelphia',
+    template: '%s | PhillyLegalGuide',
+    default: 'PhillyLegalGuide — Find the Right Injury Lawyer in Philadelphia',
   },
   description:
     'Independent guide helping Philadelphia residents find the right personal injury lawyer. Take our free quiz to identify your case type and see matching firms.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'PhillyInjuryGuide',
+    siteName: 'PhillyLegalGuide',
   },
   robots: {
     index: true,

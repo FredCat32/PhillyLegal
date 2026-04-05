@@ -6,11 +6,11 @@ import FAQAccordion from '@/components/FAQAccordion';
 import { faqSchema, breadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Find the Right Injury Lawyer for Your Philadelphia Case | PhillyInjuryGuide',
+  title: 'Find the Right Injury Lawyer for Your Philadelphia Case | PhillyLegalGuide',
   description:
     'Independent guide helping Philadelphia residents find the right personal injury lawyer. Take our free 2-minute quiz and see which firms handle your situation.',
   openGraph: {
-    title: 'PhillyInjuryGuide — Find the Right Injury Lawyer in Philadelphia',
+    title: 'PhillyLegalGuide — Find the Right Injury Lawyer in Philadelphia',
     description:
       'Answer 4 questions and find out exactly what type of lawyer you need — and which Philadelphia firms handle your situation.',
   },

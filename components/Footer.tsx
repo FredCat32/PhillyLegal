@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-3">
               <Scale className="w-4 h-4 text-brand" aria-hidden="true" />
-              <span className="font-bold text-text-primary">PhillyInjuryGuide</span>
+              <span className="font-bold text-text-primary">PhillyLegalGuide</span>
             </Link>
             <p className="text-sm text-text-muted leading-relaxed">
               Independent information resource for Philadelphia personal injury cases.
@@ -98,13 +98,13 @@ export default function Footer() {
         {/* Legal disclaimer */}
         <div className="border-t border-border-subtle pt-6">
           <p className="text-xs text-text-muted leading-relaxed max-w-4xl">
-            PhillyInjuryGuide is an independent information resource and is not a law firm.
+            PhillyLegalGuide is an independent information resource and is not a law firm.
             Nothing on this site constitutes legal advice. Information is provided for general
             informational purposes only. Always consult a licensed Pennsylvania attorney
             regarding your specific situation. Firm listings are for informational purposes only.
           </p>
           <p className="text-xs text-text-muted mt-3">
-            © {new Date().getFullYear()} PhillyInjuryGuide. All rights reserved.
+            © {new Date().getFullYear()} PhillyLegalGuide. All rights reserved.
           </p>
         </div>
       </div>
