@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "Do I need a lawyer for a workers' comp claim in Pennsylvania?",
     answer:
-      "Not always for simple claims — but if your claim has been denied, disputed, or if your injuries are serious, a workers' compensation attorney significantly increases your odds of a full recovery. Most work on contingency and are paid from your settlement.",
+      "Not always for simple claims, but if your claim has been denied, disputed, or if your injuries are serious, a workers' compensation attorney significantly increases your odds of a full recovery. Most work on contingency and are paid from your settlement.",
   },
   {
     question: "How long do I have to report a workplace injury in Pennsylvania?",
@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "Can I sue my employer for a workplace injury in Pennsylvania?",
     answer:
-      "Generally, no — Pennsylvania's workers' compensation system is the exclusive remedy against your employer. However, you may be able to sue a third party (such as an equipment manufacturer, contractor, or negligent driver) whose actions contributed to your injury.",
+      "Generally, no, Pennsylvania's workers' compensation system is the exclusive remedy against your employer. However, you may be able to sue a third party (such as an equipment manufacturer, contractor, or negligent driver) whose actions contributed to your injury.",
   },
   {
     question: "What if my workers' comp claim is denied?",
@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Can I be fired for filing a workers' comp claim in Pennsylvania?",
     answer:
-      "No — Pennsylvania law prohibits retaliation for filing a workers' compensation claim. If you are fired or demoted after filing, you may have a separate wrongful termination claim. Document everything and contact an attorney immediately.",
+      "No, Pennsylvania law prohibits retaliation for filing a workers' compensation claim. If you are fired or demoted after filing, you may have a separate wrongful termination claim. Document everything and contact an attorney immediately.",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function WorkersCompPage() {
 
         <p className="text-text-secondary leading-relaxed mb-6 text-lg">
           If you were injured on the job in Philadelphia, you are generally entitled to
-          workers' compensation benefits — including medical expenses and a portion of lost
+          workers' compensation benefits, including medical expenses and a portion of lost
           wages. But the system is designed by insurers, and claims are frequently denied or
           underpaid. An experienced workers' comp attorney can level the playing field.
         </p>
@@ -93,11 +93,11 @@ export default function WorkersCompPage() {
         </h2>
         <ul className="space-y-3 text-text-secondary leading-relaxed mb-8">
           {[
-            'Dedicated workers\' compensation practice — not just a general personal injury firm',
+            'Dedicated workers\' compensation practice, not just a general personal injury firm',
             'Experience handling denied claims and appeals before the PA Workers\' Compensation Appeal Board',
             'Familiarity with employer and insurer tactics to reduce or terminate benefits',
             'Ability to identify third-party claims that may provide additional compensation',
-            'Clear contingency fee agreement — typical fees are capped by Pennsylvania law',
+            'Clear contingency fee agreement, typical fees are capped by Pennsylvania law',
           ].map((item) => (
             <li key={item} className="flex items-start gap-2.5">
               <span className="w-1.5 h-1.5 rounded-full bg-brand flex-shrink-0 mt-2" aria-hidden="true" />
@@ -129,7 +129,7 @@ export default function WorkersCompPage() {
         </h2>
         <div className="space-y-4 mb-8">
           {[
-            { phase: 'Immediate steps', detail: 'Report your injury to your employer in writing. Seek medical care — in Pennsylvania, your employer may designate which doctors you must see for the first 90 days.' },
+            { phase: 'Immediate steps', detail: 'Report your injury to your employer in writing. Seek medical care, in Pennsylvania, your employer may designate which doctors you must see for the first 90 days.' },
             { phase: 'Claim filed and evaluated (1–3 months)', detail: 'The employer\'s insurance carrier has 21 days to accept or deny your claim. If denied, you need to file a claim petition.' },
             { phase: 'Litigation if disputed (6–18 months)', detail: 'Disputed claims go before a workers\' compensation judge. Discovery, depositions, and hearings take time. Most cases settle during this process.' },
             { phase: 'Resolution', detail: 'Cases can settle with a lump sum payment or continue as ongoing weekly benefits. Your attorney can help evaluate whether a settlement offer is fair.' },

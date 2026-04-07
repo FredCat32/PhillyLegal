@@ -31,7 +31,7 @@ export default function AboutPage() {
           {
             icon: Shield,
             title: 'Independent',
-            description: 'We are not affiliated with any law firm. Our goal is to help you find the right information — not to steer you to a particular firm.',
+            description: 'We are not affiliated with any law firm. Our goal is to help you find the right information, not to steer you to a particular firm.',
           },
           {
             icon: Scale,

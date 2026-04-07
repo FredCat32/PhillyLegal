@@ -6,14 +6,14 @@ import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'What Percentage Do Personal Injury Lawyers Take in Pennsylvania?',
   description:
-    'Learn about contingency fees in Pennsylvania personal injury cases — typical percentages (33–40%), how expenses work, and how to calculate your net settlement.',
+    'Learn about contingency fees in Pennsylvania personal injury cases, typical percentages (33–40%), how expenses work, and how to calculate your net settlement.',
 };
 
 const faqs = [
   {
     question: 'Is the contingency fee percentage negotiable?',
     answer:
-      'Sometimes. Particularly strong cases — clear liability, serious injuries, high damages — give you more negotiating leverage. However, many firms use standard rates and the fee structure matters less than the total amount you take home after fees and expenses.',
+      'Sometimes. Particularly strong cases, clear liability, serious injuries, high damages, give you more negotiating leverage. However, many firms use standard rates and the fee structure matters less than the total amount you take home after fees and expenses.',
   },
   {
     question: 'What happens to case expenses if I lose?',
@@ -23,7 +23,7 @@ const faqs = [
   {
     question: 'Do I pay more if the case goes to trial?',
     answer:
-      'Many contingency fee agreements have a sliding scale — for example, 33% if the case settles before filing, 38% if it requires filing suit, and 40% if it goes to trial. Ask specifically about this before signing.',
+      'Many contingency fee agreements have a sliding scale, for example, 33% if the case settles before filing, 38% if it requires filing suit, and 40% if it goes to trial. Ask specifically about this before signing.',
   },
   {
     question: 'What are typical case expenses in a personal injury case?',
@@ -96,7 +96,7 @@ export default function WhatPercentagePage() {
           </ul>
           <p>
             Pennsylvania does not cap contingency fees in most personal injury cases (workers'
-            compensation is an exception — fees are capped at 20% and must be approved by a
+            compensation is an exception, fees are capped at 20% and must be approved by a
             judge).
           </p>
 
@@ -135,7 +135,7 @@ export default function WhatPercentagePage() {
           </div>
           <p>
             Whether expenses are deducted before or after the fee percentage is applied also
-            matters — always ask this specifically. Deducting expenses first (then taking the
+            matters, always ask this specifically. Deducting expenses first (then taking the
             fee on the remainder) results in a higher net for you.
           </p>
 

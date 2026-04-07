@@ -37,7 +37,7 @@ const faqs = [
   {
     question: 'Should I talk to the insurance company before hiring a lawyer?',
     answer:
-      'Be very cautious. Insurance adjusters are trained to minimise payouts. Anything you say can be used against you. Most Philadelphia car accident attorneys offer free consultations — talk to one before giving a recorded statement to any insurer.',
+      'Be very cautious. Insurance adjusters are trained to minimise payouts. Anything you say can be used against you. Most Philadelphia car accident attorneys offer free consultations, talk to one before giving a recorded statement to any insurer.',
   },
 ];
 
@@ -80,8 +80,8 @@ export default function CarAccidentPage() {
         {/* What is this type of case */}
         <p className="text-text-secondary leading-relaxed mb-6 text-lg">
           Car accidents are the leading cause of personal injury claims in Philadelphia. If you
-          were injured in a vehicle accident caused by another driver's negligence — whether on
-          I-95, Route 1, or a local street — you may be entitled to compensation for medical
+          were injured in a vehicle accident caused by another driver's negligence, whether on
+          I-95, Route 1, or a local street, you may be entitled to compensation for medical
           bills, lost wages, and pain and suffering.
         </p>
 
@@ -105,7 +105,7 @@ export default function CarAccidentPage() {
             'Experience specifically with Pennsylvania auto injury claims and insurance disputes',
             'Familiarity with Pennsylvania\'s choice no-fault system (limited tort vs. full tort)',
             'A track record of taking cases to trial, not just settling quickly',
-            'Contingency fee structure — you pay nothing unless they win',
+            'Contingency fee structure, you pay nothing unless they win',
             'Clear communication and a dedicated point of contact for your case',
           ].map((item) => (
             <li key={item} className="flex items-start gap-2.5">
@@ -164,7 +164,7 @@ export default function CarAccidentPage() {
             Pennsylvania operates a <strong>choice no-fault insurance system</strong>. When
             purchasing auto insurance, drivers choose between "limited tort" (restricts your
             ability to sue for pain and suffering) and "full tort" (preserves all rights to sue).
-            Most people default to limited tort because it costs less — but it can significantly
+            Most people default to limited tort because it costs less, but it can significantly
             limit your recovery.
           </p>
           <p>

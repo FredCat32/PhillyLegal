@@ -47,7 +47,7 @@ export default function FirmsPage() {
           <p className="text-text-secondary leading-relaxed">
             A curated list of Philadelphia personal injury law firms and their specialties.
             All firms listed offer free consultations. This directory is for informational
-            purposes — we are not affiliated with any firm listed.
+            purposes, we are not affiliated with any firm listed.
           </p>
         </div>
 

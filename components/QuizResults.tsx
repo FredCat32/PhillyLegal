@@ -1,12 +1,10 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
-import { RotateCcw, Mail, CheckCircle2 } from 'lucide-react';
+import { RotateCcw, CheckCircle2 } from 'lucide-react';
 import FirmCard from './FirmCard';
 import UrgencyBanner from './UrgencyBanner';
 import { type Firm } from '@/lib/firms';
-import { trackEmailCapture } from '@/lib/analytics';
 
 const caseTypeLabels: Record<string, string> = {
   'car-accident': 'Car Accident',
@@ -31,7 +29,7 @@ const caseTypeDescriptions: Record<string, string> = {
 
 const lawyerStatusMessages: Record<string, string> = {
   'second-opinion':
-    "Since you're seeking a second opinion, look for firms that offer free consultations with no obligation — most do. Bring any documents from your current representation.",
+    "Since you're seeking a second opinion, look for firms that offer free consultations with no obligation, most do. Bring any documents from your current representation.",
   'represented':
     "Since you already have representation, you may want to review our guide on how to evaluate your current attorney rather than seek a new firm.",
 };
@@ -51,18 +49,8 @@ export default function QuizResults({
   priority,
   firms,
 }: QuizResultsProps) {
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
   const isUrgent = timeframe === '6-24' || timeframe === '24+';
   const isAlreadyRepresented = lawyerStatus === 'represented';
-
-  function handleEmailSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (!email) return;
-    trackEmailCapture('quiz-results');
-    setSubmitted(true);
-    // In production: POST to email API
-  }
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
@@ -132,41 +120,6 @@ export default function QuizResults({
           </div>
         </section>
       )}
-
-      {/* Email capture */}
-      <section className="bg-bg-warm rounded-card p-6 mb-8">
-        <h2 className="font-semibold text-text-primary mb-1">
-          Get a free case evaluation checklist
-        </h2>
-        <p className="text-sm text-text-secondary mb-4">
-          We'll send you a checklist of what to bring to your free consultation — and what
-          questions to ask any Philadelphia injury lawyer.
-        </p>
-        {submitted ? (
-          <div className="flex items-center gap-2 text-brand font-medium text-sm">
-            <CheckCircle2 className="w-5 h-5" aria-hidden="true" />
-            Sent! Check your inbox.
-          </div>
-        ) : (
-          <form onSubmit={handleEmailSubmit} className="flex flex-col sm:flex-row gap-2">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
-              required
-              className="flex-1 border border-border-mid rounded-btn px-4 py-2.5 text-sm focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand"
-            />
-            <button type="submit" className="btn-primary text-sm py-2.5 px-5 whitespace-nowrap">
-              <Mail className="w-4 h-4" aria-hidden="true" />
-              Send Checklist
-            </button>
-          </form>
-        )}
-        <p className="text-xs text-text-muted mt-2">
-          No spam. Unsubscribe anytime.
-        </p>
-      </section>
 
       {/* Restart */}
       <div className="text-center">

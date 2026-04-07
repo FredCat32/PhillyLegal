@@ -7,7 +7,7 @@ import { blogPosts } from '@/lib/blog';
 export const metadata: Metadata = {
   title: 'Philadelphia Personal Injury Blog',
   description:
-    'Practical articles on Philadelphia personal injury law — car accidents, settlement timelines, insurance tactics, and Pennsylvania-specific legal rules.',
+    'Practical articles on Philadelphia personal injury law, car accidents, settlement timelines, insurance tactics, and Pennsylvania-specific legal rules.',
 };
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';

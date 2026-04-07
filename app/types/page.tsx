@@ -6,7 +6,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'Types of Personal Injury Cases in Philadelphia',
   description:
-    'Learn about different types of personal injury cases in Philadelphia — car accidents, slip and fall, workers comp, and medical malpractice.',
+    'Learn about different types of personal injury cases in Philadelphia, car accidents, slip and fall, workers comp, and medical malpractice.',
 };
 
 const caseTypes = [
@@ -31,7 +31,7 @@ const caseTypes = [
     title: "Workers' Comp Lawyers",
     slug: 'workers-comp',
     description:
-      "Pennsylvania's workers' compensation system covers most workplace injuries — but claims are frequently denied. An attorney can help.",
+      "Pennsylvania's workers' compensation system covers most workplace injuries, but claims are frequently denied. An attorney can help.",
     limitText: '3 years from date of injury or last payment',
   },
   {

@@ -6,7 +6,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'Philadelphia Personal Injury Guides',
   description:
-    'Free guides for Philadelphia personal injury cases — how to choose a lawyer, what percentage they take, and how long your case will take.',
+    'Free guides for Philadelphia personal injury cases, how to choose a lawyer, what percentage they take, and how long your case will take.',
 };
 
 const guides = [
@@ -58,7 +58,7 @@ export default function GuideHubPage() {
           </h1>
           <p className="text-text-secondary leading-relaxed">
             Practical, honest guides for navigating a personal injury case in Philadelphia.
-            Written to help you ask better questions and make better decisions — not to
+            Written to help you ask better questions and make better decisions, not to
             replace legal advice.
           </p>
         </div>

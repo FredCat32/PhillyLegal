@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ),
   title: {
     template: '%s | PhillyLegalGuide',
-    default: 'PhillyLegalGuide — Find the Right Injury Lawyer in Philadelphia',
+    default: 'PhillyLegalGuide: Find the Right Injury Lawyer in Philadelphia',
   },
   description:
     'Independent guide helping Philadelphia residents find the right personal injury lawyer. Take our free quiz to identify your case type and see matching firms.',

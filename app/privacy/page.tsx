@@ -34,7 +34,7 @@ export default function PrivacyPage() {
           <ul className="space-y-1.5 mt-2">
             {[
               'Email address (if you submit the optional email capture form on quiz results)',
-              'Quiz answers (case type, timeframe, preferences — no personal identifying information is required)',
+              'Quiz answers (case type, timeframe, preferences, no personal identifying information is required)',
             ].map((item) => (
               <li key={item} className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand flex-shrink-0 mt-2" aria-hidden="true" />

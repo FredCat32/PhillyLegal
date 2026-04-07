@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer',
-  description: 'Legal disclaimer for PhillyLegalGuide — independent information resource, not a law firm.',
+  description: 'Legal disclaimer for PhillyLegalGuide: independent information resource, not a law firm.',
 };
 
 export default function DisclaimerPage() {

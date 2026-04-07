@@ -28,7 +28,7 @@ const steps = [
   {
     id: 'timeframe',
     question: 'How long ago did it happen?',
-    hint: "Pennsylvania has a 2-year statute of limitations — this affects how urgently you need to act.",
+    hint: "Pennsylvania has a 2-year statute of limitations, this affects how urgently you need to act.",
     options: [
       { value: '0-1', label: 'Within the last 30 days' },
       { value: '1-6', label: '1–6 months ago' },
@@ -80,7 +80,7 @@ export default function QuizWidget() {
     if (currentStep < totalSteps - 1) {
       setCurrentStep(currentStep + 1);
     } else {
-      // Complete — navigate to results
+      // Complete, navigate to results
       const isUrgent = newAnswers.timeframe === '6-24' || newAnswers.timeframe === '24+';
       trackQuizComplete(newAnswers.caseType || 'general', isUrgent);
       const params = new URLSearchParams({

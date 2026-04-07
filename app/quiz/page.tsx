@@ -4,7 +4,7 @@ import QuizWidget from '@/components/QuizWidget';
 export const metadata: Metadata = {
   title: 'Personal Injury Lawyer Quiz',
   description:
-    'Answer 4 questions to find out what type of personal injury lawyer you need in Philadelphia — and which firms match your situation.',
+    'Answer 4 questions to find out what type of personal injury lawyer you need in Philadelphia, and which firms match your situation.',
   robots: {
     index: true,
     follow: true,

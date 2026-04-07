@@ -6,12 +6,12 @@ type UrgencyBannerProps = {
 
 const urgencyMessages: Record<string, { headline: string; body: string }> = {
   '6-24': {
-    headline: 'Time is running — act now',
+    headline: 'Time is running. Act now.',
     body: "Pennsylvania's 2-year statute of limitations means you may have less than a year to file your claim. Missing this deadline typically means losing your right to compensation entirely. We strongly recommend contacting a lawyer this week.",
   },
   '24+': {
     headline: 'You may have passed the deadline',
-    body: "Pennsylvania's 2-year statute of limitations may have already expired for your case. Contact a Philadelphia personal injury attorney immediately — in rare circumstances exceptions apply, but time is critical.",
+    body: "Pennsylvania's 2-year statute of limitations may have already expired for your case. Contact a Philadelphia personal injury attorney immediately, in rare circumstances exceptions apply, but time is critical.",
   },
 };
 

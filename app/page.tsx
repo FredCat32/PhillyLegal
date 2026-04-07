@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   description:
     'Independent guide helping Philadelphia residents find the right personal injury lawyer. Take our free 2-minute quiz and see which firms handle your situation.',
   openGraph: {
-    title: 'PhillyLegalGuide — Find the Right Injury Lawyer in Philadelphia',
+    title: 'PhillyLegalGuide: Find the Right Injury Lawyer in Philadelphia',
     description:
-      'Answer 4 questions and find out exactly what type of lawyer you need — and which Philadelphia firms handle your situation.',
+      'Answer 4 questions and find out exactly what type of lawyer you need, and which Philadelphia firms handle your situation.',
   },
 };
 
@@ -47,17 +47,17 @@ const faqs = [
   {
     question: 'Do I need a lawyer for a minor accident in Philadelphia?',
     answer:
-      "Not always — but even minor accidents can result in injuries that appear days later. A free consultation with a Philadelphia personal injury attorney costs nothing and helps you understand your rights before accepting any settlement from an insurance company.",
+      "Not always, but even minor accidents can result in injuries that appear days later. A free consultation with a Philadelphia personal injury attorney costs nothing and helps you understand your rights before accepting any settlement from an insurance company.",
   },
   {
     question: 'How much does a personal injury lawyer cost in Pennsylvania?',
     answer:
-      'Most Philadelphia personal injury lawyers work on contingency — meaning you pay nothing upfront and only owe legal fees if you win. Typical contingency fees in Pennsylvania range from 33% to 40% of your settlement. If you lose, you owe nothing.',
+      'Most Philadelphia personal injury lawyers work on contingency, meaning you pay nothing upfront and only owe legal fees if you win. Typical contingency fees in Pennsylvania range from 33% to 40% of your settlement. If you lose, you owe nothing.',
   },
   {
     question: 'What is the statute of limitations in Pennsylvania for personal injury?',
     answer:
-      'Pennsylvania generally allows 2 years from the date of injury to file a personal injury lawsuit. Missing this deadline typically means losing your right to compensation entirely. Some exceptions apply — for example, if the injury was not immediately discovered, or if a government entity is involved.',
+      'Pennsylvania generally allows 2 years from the date of injury to file a personal injury lawsuit. Missing this deadline typically means losing your right to compensation entirely. Some exceptions apply, for example, if the injury was not immediately discovered, or if a government entity is involved.',
   },
   {
     question: 'How do I know if I have a personal injury case?',
@@ -100,7 +100,7 @@ export default function HomePage() {
               Find the Right Injury Lawyer for Your Philadelphia Case
             </h1>
             <p className="text-lg text-text-secondary leading-relaxed mb-8">
-              Answer 4 questions and find out exactly what type of lawyer you need — and which
+              Answer 4 questions and find out exactly what type of lawyer you need, and which
               Philadelphia firms handle your situation.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
@@ -121,17 +121,17 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-center justify-center text-sm text-text-secondary">
             <div className="flex items-center gap-2">
               <Shield className="w-4 h-4 text-brand flex-shrink-0" aria-hidden="true" />
-              <span><strong className="text-text-primary">Independent</strong> — we are not a law firm</span>
+              <span><strong className="text-text-primary">Independent</strong>, we are not a law firm</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border-mid" aria-hidden="true" />
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-brand flex-shrink-0" aria-hidden="true" />
-              <span><strong className="text-text-primary">Free</strong> — no cost to use this guide</span>
+              <span><strong className="text-text-primary">Free</strong>, no cost to use this guide</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border-mid" aria-hidden="true" />
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-brand flex-shrink-0" aria-hidden="true" />
-              <span><strong className="text-text-primary">Local</strong> — Philadelphia-specific information</span>
+              <span><strong className="text-text-primary">Local</strong>, Philadelphia-specific information</span>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold text-text-primary mb-2">How It Works</h2>
             <p className="text-text-secondary">
               Our quiz takes 2 minutes and surfaces information that matters for your Philadelphia
-              case — including your statute of limitations deadline.
+              case, including your statute of limitations deadline.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

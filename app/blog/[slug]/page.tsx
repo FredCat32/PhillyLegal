@@ -155,7 +155,7 @@ export default function BlogPostPage({ params }: Props) {
         <h1 className="text-3xl sm:text-4xl font-bold text-text-primary mb-4 leading-tight">
           {post.title}
         </h1>
-        <p className="text-text-muted text-sm mb-8">
+        <p className="text-text-muted text-sm mb-4">
           {post.readTime}
           &nbsp;·&nbsp;
           {new Date(post.datePublished).toLocaleDateString('en-US', {
@@ -165,6 +165,16 @@ export default function BlogPostPage({ params }: Props) {
           })}
           &nbsp;·&nbsp; Philadelphia, PA
         </p>
+        <div className="flex items-center gap-3 mb-8 pb-6 border-b border-border-subtle">
+          <div className="w-9 h-9 rounded-full bg-brand-light flex items-center justify-center flex-shrink-0">
+            <span className="text-brand font-bold text-sm">PL</span>
+          </div>
+          <p className="text-sm text-text-muted">
+            Written by the <span className="text-text-secondary font-medium">PhillyLegalGuide editorial team</span> and reviewed for accuracy{' '}
+            {new Date(post.datePublished).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}.
+            This site is an independent information resource and is not a law firm.
+          </p>
+        </div>
 
         <div className="prose-like text-text-secondary leading-relaxed space-y-6">
           {post.content.map((section, i) => renderSection(section, i))}

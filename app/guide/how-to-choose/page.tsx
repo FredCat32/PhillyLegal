@@ -6,14 +6,14 @@ import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'How to Choose a Personal Injury Lawyer in Philadelphia: What Actually Matters',
   description:
-    'Practical guide to choosing the right personal injury lawyer in Philadelphia — contingency fees, questions to ask, red flags, and what to bring to your consultation.',
+    'Practical guide to choosing the right personal injury lawyer in Philadelphia, contingency fees, questions to ask, red flags, and what to bring to your consultation.',
 };
 
 const faqs = [
   {
     question: 'What is a contingency fee?',
     answer:
-      "A contingency fee means your attorney only gets paid if you win. Instead of billing by the hour, they take a percentage — typically 33–40% — of your final settlement or verdict. If you lose, you owe no legal fees (though you may still owe case expenses).",
+      "A contingency fee means your attorney only gets paid if you win. Instead of billing by the hour, they take a percentage, typically 33–40%, of your final settlement or verdict. If you lose, you owe no legal fees (though you may still owe case expenses).",
   },
   {
     question: 'What are red flags when hiring a personal injury lawyer?',
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'Should I hire the lawyer with the most TV ads?',
     answer:
-      "Not necessarily. Heavy advertising budgets don't correlate with case outcomes. It's worth researching specific attorneys who will handle your case — not just the name on the billboard. Many excellent Philadelphia injury attorneys are not heavy advertisers.",
+      "Not necessarily. Heavy advertising budgets don't correlate with case outcomes. It's worth researching specific attorneys who will handle your case, not just the name on the billboard. Many excellent Philadelphia injury attorneys are not heavy advertisers.",
   },
 ];
 
@@ -73,21 +73,21 @@ export default function HowToChoosePage() {
           <p className="text-lg">
             Choosing the right personal injury lawyer can be the difference between a fair
             settlement and being taken advantage of by an insurance company. Here's what
-            actually matters — and what doesn't.
+            actually matters, and what doesn't.
           </p>
 
           <h2 className="text-2xl font-bold text-text-primary pt-4">
             1. Understand How Contingency Fees Work
           </h2>
           <p>
-            Nearly all Philadelphia personal injury lawyers work on contingency — you pay
+            Nearly all Philadelphia personal injury lawyers work on contingency, you pay
             nothing upfront and only owe attorney fees if you win. The standard fee in
             Pennsylvania ranges from <strong>33% to 40%</strong> of your total recovery.
           </p>
           <p>
             Before signing, get clarity on two things: (1) what is the exact percentage,
             and does it change if the case goes to trial? (2) How are case expenses handled?
-            Expenses — filing fees, expert witnesses, medical record costs — can run
+            Expenses, filing fees, expert witnesses, medical record costs, can run
             $5,000–$50,000+ and are typically deducted from your settlement in addition to
             the attorney fee.
           </p>
@@ -113,7 +113,7 @@ export default function HowToChoosePage() {
           </h2>
           <ul className="space-y-2">
             {[
-              'Who specifically will handle my case — you, an associate, or a paralegal?',
+              'Who specifically will handle my case, you, an associate, or a paralegal?',
               'How many cases similar to mine have you taken to trial?',
               'What is your honest assessment of my case strength?',
               'What is your contingency fee, and does it change if we file suit or go to trial?',
@@ -133,11 +133,11 @@ export default function HowToChoosePage() {
           </h2>
           <ul className="space-y-2">
             {[
-              'Guaranteeing a specific outcome or settlement amount — no ethical attorney can promise this',
+              'Guaranteeing a specific outcome or settlement amount, no ethical attorney can promise this',
               'High-pressure tactics to sign a retainer before you\'ve had time to think',
               'Unwillingness to explain their fee structure in writing, in plain English',
               'You\'ll always be talking to a paralegal, never your actual attorney',
-              'The firm handles every type of case under the sun — specialists beat generalists in complex cases',
+              'The firm handles every type of case under the sun, specialists beat generalists in complex cases',
               'Vague answers about how they\'ve handled similar cases',
             ].map((q) => (
               <li key={q} className="flex items-start gap-2.5">
@@ -151,7 +151,7 @@ export default function HowToChoosePage() {
             5. Free Consultations: What They Are and Aren't
           </h2>
           <p>
-            Most Philadelphia personal injury firms offer free initial consultations — typically
+            Most Philadelphia personal injury firms offer free initial consultations, typically
             30–60 minutes. This is a real evaluation of your case, not just a sales pitch,
             at good firms.
           </p>

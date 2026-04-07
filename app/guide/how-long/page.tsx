@@ -6,14 +6,14 @@ import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'How Long Does a Personal Injury Case Take in Philadelphia?',
   description:
-    'Learn how long personal injury cases take in Philadelphia — settlement timelines vs. trial timelines, what causes delays, and realistic expectations.',
+    'Learn how long personal injury cases take in Philadelphia, settlement timelines vs. trial timelines, what causes delays, and realistic expectations.',
 };
 
 const faqs = [
   {
     question: 'Can I speed up my personal injury case?',
     answer:
-      'To some extent. Responding quickly to your attorney\'s requests, attending all medical appointments, and documenting everything thoroughly can prevent delays. However, you cannot rush the medical treatment process — settling before you\'ve reached maximum medical improvement typically means undervaluing your claim.',
+      'To some extent. Responding quickly to your attorney\'s requests, attending all medical appointments, and documenting everything thoroughly can prevent delays. However, you cannot rush the medical treatment process, settling before you\'ve reached maximum medical improvement typically means undervaluing your claim.',
   },
   {
     question: 'What causes the most delays in personal injury cases?',
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'What is maximum medical improvement (MMI) and why does it matter?',
     answer:
-      "MMI is the point at which your doctor believes your condition has stabilised and further significant improvement is unlikely. Settling before MMI is risky — you don't yet know the full extent of your injuries, future medical costs, or long-term impact on your ability to work. Most experienced attorneys wait for MMI before demanding a settlement.",
+      "MMI is the point at which your doctor believes your condition has stabilised and further significant improvement is unlikely. Settling before MMI is risky, you don't yet know the full extent of your injuries, future medical costs, or long-term impact on your ability to work. Most experienced attorneys wait for MMI before demanding a settlement.",
   },
 ];
 
@@ -79,8 +79,8 @@ export default function HowLongPage() {
             The Short Answer: Most Cases Take 1–3 Years
           </h2>
           <p>
-            Simple cases — clear liability, minor-to-moderate injuries, cooperative insurers
-            — can sometimes settle in 3–9 months. Complex cases involving serious injury,
+            Simple cases, clear liability, minor-to-moderate injuries, cooperative insurers
+           , can sometimes settle in 3–9 months. Complex cases involving serious injury,
             disputed liability, or litigation commonly take 2–4 years. Medical malpractice
             cases often take 3–5 years.
           </p>
@@ -95,8 +95,8 @@ export default function HowLongPage() {
           <div className="space-y-4 my-2">
             {[
               { phase: 'Pre-litigation settlement (3–12 months)', detail: 'Investigation, medical treatment, demand letter, insurance negotiations. This is the fastest path and avoids court entirely.' },
-              { phase: 'Post-filing settlement (12–24 months)', detail: 'If the insurer won\'t make a fair offer, your attorney files suit. Most cases still settle during discovery — before trial.' },
-              { phase: 'Trial (2–4+ years)', detail: 'If both sides cannot agree, the case goes to trial. Philadelphia Court of Common Pleas schedules are busy — getting a trial date can take 18–24 months after filing alone.' },
+              { phase: 'Post-filing settlement (12–24 months)', detail: 'If the insurer won\'t make a fair offer, your attorney files suit. Most cases still settle during discovery, before trial.' },
+              { phase: 'Trial (2–4+ years)', detail: 'If both sides cannot agree, the case goes to trial. Philadelphia Court of Common Pleas schedules are busy, getting a trial date can take 18–24 months after filing alone.' },
             ].map((item) => (
               <div key={item.phase} className="flex gap-4">
                 <div className="w-2 h-2 rounded-full bg-brand flex-shrink-0 mt-2" aria-hidden="true" />
@@ -114,7 +114,7 @@ export default function HowLongPage() {
           <ul className="space-y-2">
             {[
               { factor: 'Severity of injuries', detail: 'Attorneys wait for you to reach Maximum Medical Improvement (MMI) before demanding a settlement. Serious injuries with longer recovery periods mean longer cases.' },
-              { factor: 'Liability clarity', detail: 'Clear-cut liability (e.g., a rear-end collision with a police report) speeds things up. Disputed liability — where both sides disagree about who was at fault — adds months or years.' },
+              { factor: 'Liability clarity', detail: 'Clear-cut liability (e.g., a rear-end collision with a police report) speeds things up. Disputed liability, where both sides disagree about who was at fault, adds months or years.' },
               { factor: 'Insurance company cooperation', detail: 'Some insurers negotiate in good faith. Others use delay tactics. Cases against major insurers with standard litigation tactics can take longer.' },
               { factor: 'Case complexity', detail: 'Medical malpractice and catastrophic injury cases involve extensive expert witnesses, depositions, and discovery that take time regardless of insurer cooperation.' },
               { factor: 'Philadelphia court backlog', detail: 'If your case goes to trial, Philadelphia\'s Court of Common Pleas schedules are busy. Getting a trial date can add 12–24 months to your timeline.' },
@@ -164,7 +164,7 @@ export default function HowLongPage() {
           </h2>
           <ul className="space-y-2">
             {[
-              'Follow all medical recommendations — gaps in treatment hurt your case',
+              'Follow all medical recommendations, gaps in treatment hurt your case',
               'Document everything: keep a journal of symptoms, limitations, and medical appointments',
               'Respond promptly to your attorney\'s requests',
               'Don\'t post about your case or your activities on social media',

@@ -31,7 +31,7 @@ const faqs = [
   {
     question: 'What if I was partly at fault for the fall?',
     answer:
-      "Pennsylvania uses a modified comparative negligence rule. If you were less than 51% at fault, you can still recover compensation — but your award is reduced by your percentage of fault. If you were 51% or more at fault, you cannot recover.",
+      "Pennsylvania uses a modified comparative negligence rule. If you were less than 51% at fault, you can still recover compensation, but your award is reduced by your percentage of fault. If you were 51% or more at fault, you cannot recover.",
   },
   {
     question: 'Does it matter if there was a "Wet Floor" sign present?',
@@ -72,7 +72,7 @@ export default function SlipFallPage() {
         </h1>
 
         <p className="text-text-secondary leading-relaxed mb-6 text-lg">
-          Slip and fall cases — also called premises liability claims — arise when a property
+          Slip and fall cases, also called premises liability claims, arise when a property
           owner's negligence creates a dangerous condition that causes your injury. Philadelphia
           properties, stores, restaurants, and public spaces all carry a duty to maintain safe
           conditions for visitors.
@@ -97,7 +97,7 @@ export default function SlipFallPage() {
             'Familiarity with Philadelphia property maintenance codes and standards',
             'Ability to identify all responsible parties (property owner, tenant, maintenance company)',
             'Willingness to fight insurers who argue contributory negligence on your part',
-            'Contingency fee structure — you pay nothing unless they win',
+            'Contingency fee structure, you pay nothing unless they win',
           ].map((item) => (
             <li key={item} className="flex items-start gap-2.5">
               <span className="w-1.5 h-1.5 rounded-full bg-brand flex-shrink-0 mt-2" aria-hidden="true" />
@@ -129,7 +129,7 @@ export default function SlipFallPage() {
         </h2>
         <div className="space-y-4 mb-8">
           {[
-            { phase: 'Evidence preservation (immediate)', detail: 'Photos, incident reports, witness information, and surveillance footage must be gathered quickly — property owners are not required to preserve evidence indefinitely.' },
+            { phase: 'Evidence preservation (immediate)', detail: 'Photos, incident reports, witness information, and surveillance footage must be gathered quickly, property owners are not required to preserve evidence indefinitely.' },
             { phase: 'Medical treatment and documentation', detail: 'Continue all recommended treatment. Documentation of your injuries, pain, and recovery is critical to your case value.' },
             { phase: 'Investigation and demand (3–9 months)', detail: 'Your attorney investigates liability, identifies all defendants, and sends a demand once your medical picture is clear.' },
             { phase: 'Resolution (typically 12–18 months)', detail: 'Many slip and fall cases settle without filing suit. More complex cases involving serious injury can take longer.' },
@@ -163,7 +163,7 @@ export default function SlipFallPage() {
           </p>
           <p>
             Pennsylvania's <strong>modified comparative negligence</strong> rule means your
-            compensation is reduced if you were partly at fault — but you can still recover
+            compensation is reduced if you were partly at fault, but you can still recover
             if you were less than 51% responsible.
           </p>
         </div>

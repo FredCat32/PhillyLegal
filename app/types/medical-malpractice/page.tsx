@@ -21,22 +21,22 @@ const faqs = [
   {
     question: 'What is the statute of limitations for medical malpractice in Pennsylvania?',
     answer:
-      "Pennsylvania generally has a 2-year statute of limitations for medical malpractice claims. However, the 'discovery rule' may extend this — if you could not reasonably have discovered the malpractice immediately, the clock may start from when you discovered (or should have discovered) the injury. Minors generally have until age 20 to file.",
+      "Pennsylvania generally has a 2-year statute of limitations for medical malpractice claims. However, the 'discovery rule' may extend this, if you could not reasonably have discovered the malpractice immediately, the clock may start from when you discovered (or should have discovered) the injury. Minors generally have until age 20 to file.",
   },
   {
     question: 'Does Pennsylvania require an expert witness for a malpractice case?',
     answer:
-      "Yes. Pennsylvania requires a Certificate of Merit from a licensed medical professional, filed within 60 days of filing suit, stating that the defendant deviated from the standard of care. This is one reason why selecting an attorney with specific malpractice experience — and expert witness relationships — is critical.",
+      "Yes. Pennsylvania requires a Certificate of Merit from a licensed medical professional, filed within 60 days of filing suit, stating that the defendant deviated from the standard of care. This is one reason why selecting an attorney with specific malpractice experience, and expert witness relationships, is critical.",
   },
   {
     question: 'How long does a medical malpractice case take in Pennsylvania?',
     answer:
-      "Medical malpractice cases are among the most complex personal injury cases. The expert witness requirement, extensive discovery, and high value of claims mean most cases take 2–4 years to resolve. Very few settle quickly — most require filing suit and going through significant litigation.",
+      "Medical malpractice cases are among the most complex personal injury cases. The expert witness requirement, extensive discovery, and high value of claims mean most cases take 2–4 years to resolve. Very few settle quickly, most require filing suit and going through significant litigation.",
   },
   {
     question: "How much does it cost to hire a medical malpractice lawyer in Philadelphia?",
     answer:
-      "Most medical malpractice attorneys work on contingency — you pay nothing upfront. Given the complexity and expense of these cases (expert witnesses alone can cost $10,000–$50,000+), attorneys typically take 33–40% of any recovery, with case expenses also deducted from the settlement.",
+      "Most medical malpractice attorneys work on contingency, you pay nothing upfront. Given the complexity and expense of these cases (expert witnesses alone can cost $10,000–$50,000+), attorneys typically take 33–40% of any recovery, with case expenses also deducted from the settlement.",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function MedicalMalpracticePage() {
         <p className="text-text-secondary leading-relaxed mb-6 text-lg">
           Medical malpractice cases involve injuries caused by healthcare providers who fail
           to meet the accepted standard of care. These are among the most complex personal injury
-          cases — requiring specialised attorneys with expert witness networks, deep medical
+          cases, requiring specialised attorneys with expert witness networks, deep medical
           knowledge, and the resources to litigate against well-funded hospital systems.
         </p>
 
@@ -156,7 +156,7 @@ export default function MedicalMalpracticePage() {
           <p>
             Pennsylvania requires medical malpractice cases to be filed in the county where the
             treatment occurred. For Philadelphia cases, this means Philadelphia Court of Common
-            Pleas — which has judges experienced in handling complex medical litigation.
+            Pleas, which has judges experienced in handling complex medical litigation.
           </p>
           <p>
             Pennsylvania does <strong>not</strong> cap compensatory damages in medical malpractice
