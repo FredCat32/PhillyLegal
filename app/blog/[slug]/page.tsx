@@ -204,24 +204,15 @@ export default function BlogPostPage({ params }: Props) {
         <div className="mt-10 pt-8 border-t border-border-subtle">
           <p className="text-sm font-semibold text-text-primary mb-3">Related guides</p>
           <div className="flex flex-col gap-2">
-            <Link
-              href="/guide/how-long"
-              className="text-sm text-link hover:text-brand transition-colors"
-            >
-              How long does a personal injury case take in Philadelphia? →
-            </Link>
-            <Link
-              href="/types/car-accident"
-              className="text-sm text-link hover:text-brand transition-colors"
-            >
-              Car accident lawyers in Philadelphia: what to look for →
-            </Link>
-            <Link
-              href="/guide/what-percentage"
-              className="text-sm text-link hover:text-brand transition-colors"
-            >
-              What percentage do personal injury lawyers take in Pennsylvania? →
-            </Link>
+            {post.relatedLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-link hover:text-brand transition-colors"
+              >
+                {link.label} →
+              </Link>
+            ))}
           </div>
         </div>
       </div>

@@ -15,6 +15,7 @@ export type BlogPost = {
   excerpt: string;
   content: ContentSection[];
   faqs: { question: string; answer: string }[];
+  relatedLinks: { label: string; href: string }[];
 };
 
 export const blogPosts: BlogPost[] = [
@@ -165,6 +166,11 @@ export const blogPosts: BlogPost[] = [
         answer:
           'Clear liability speeds things up more than anything. When there is no argument about who caused the crash, the insurer has less room to fight. Finishing treatment gives your attorney a complete damage picture to work from. Staying organized with your documentation, responding quickly when your attorney needs something, and not posting on social media all prevent delays you can actually control.',
       },
+    ],
+    relatedLinks: [
+      { label: 'Car accident lawyers in Philadelphia: what to look for', href: '/types/car-accident' },
+      { label: 'What to do after a car accident in Philadelphia', href: '/blog/what-to-do-after-car-accident-philadelphia' },
+      { label: 'What percentage do personal injury lawyers take in Pennsylvania?', href: '/guide/what-percentage' },
     ],
   },
   {
@@ -373,6 +379,11 @@ export const blogPosts: BlogPost[] = [
           'Pennsylvania uses modified comparative negligence. If you were less than 51 percent at fault, you can still recover compensation, but your award is reduced by your percentage of fault. If you were, say, 20 percent at fault, you recover 80 percent of your damages. An attorney can help establish the actual fault split and push back if the insurer is overstating your responsibility.',
       },
     ],
+    relatedLinks: [
+      { label: 'Car accident lawyers in Philadelphia: what to look for', href: '/types/car-accident' },
+      { label: 'Pennsylvania limited tort vs. full tort explained', href: '/blog/pennsylvania-limited-tort-vs-full-tort-explained' },
+      { label: 'How long does a car accident settlement take in Philadelphia?', href: '/blog/how-long-car-accident-settlement-philadelphia' },
+    ],
   },
   {
     slug: 'pennsylvania-limited-tort-vs-full-tort-explained',
@@ -557,6 +568,11 @@ export const blogPosts: BlogPost[] = [
         answer:
           'Often no. Pennsylvania law creates an exception to limited tort when the at-fault driver was operating a vehicle in the course of business. This can include delivery trucks, rideshare drivers on active trips, and company cars. If any of those apply, your limited tort election may not block your pain and suffering claim. An attorney can evaluate whether this exception applies to your situation.',
       },
+    ],
+    relatedLinks: [
+      { label: 'Car accident lawyers in Philadelphia: what to look for', href: '/types/car-accident' },
+      { label: 'What to do after a car accident in Philadelphia', href: '/blog/what-to-do-after-car-accident-philadelphia' },
+      { label: 'How to choose a personal injury lawyer in Philadelphia', href: '/guide/how-to-choose' },
     ],
   },
 ];
