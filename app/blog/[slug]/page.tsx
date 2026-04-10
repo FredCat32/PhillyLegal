@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { AlertTriangle, Info } from 'lucide-react';
+import { AlertTriangle, Info, ArrowRight } from 'lucide-react';
 import FAQAccordion from '@/components/FAQAccordion';
 import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/schema';
 import { getBlogPost, getAllBlogSlugs, type ContentSection } from '@/lib/blog';
@@ -102,6 +102,19 @@ function renderSection(section: ContentSection, index: number) {
             <p className="font-semibold text-text-primary mb-1">{section.title}</p>
             <p className="text-sm text-text-secondary leading-relaxed">{section.body}</p>
           </div>
+        </div>
+      );
+    case 'inline-link':
+      return (
+        <div key={index} className="bg-brand-light border border-border-brand rounded-card px-5 py-4 flex items-center justify-between gap-4">
+          <p className="text-sm text-text-secondary leading-relaxed">{section.text}</p>
+          <Link
+            href={section.href}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand hover:text-brand-dark whitespace-nowrap transition-colors"
+          >
+            {section.label}
+            <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+          </Link>
         </div>
       );
     default:

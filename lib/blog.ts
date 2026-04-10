@@ -4,7 +4,8 @@ export type ContentSection =
   | { type: 'h2'; text: string }
   | { type: 'ul'; items: string[] }
   | { type: 'steps'; items: { heading: string; body: string }[] }
-  | { type: 'callout'; variant: 'warning' | 'info'; title: string; body: string };
+  | { type: 'callout'; variant: 'warning' | 'info'; title: string; body: string }
+  | { type: 'inline-link'; text: string; href: string; label: string };
 
 export type BlogPost = {
   slug: string;
@@ -337,6 +338,12 @@ export const blogPosts: BlogPost[] = [
         text: 'The question is not whether to hire an attorney. For any accident involving real injury, the question is when. The answer is: as soon as possible.',
       },
       {
+        type: 'inline-link',
+        text: 'Wondering how long it will take to resolve your case once you have an attorney?',
+        href: '/blog/how-long-car-accident-settlement-philadelphia',
+        label: 'Car accident settlement timelines',
+      },
+      {
         type: 'h2',
         text: 'What Not to Do After a Car Accident in Philadelphia',
       },
@@ -463,6 +470,12 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'p',
         text: 'Insurers know this. They train their adjusters to use the limited tort election aggressively. If they can convince a claimant that they have not cleared the threshold, they can close a claim for a fraction of what a full tort case would be worth.',
+      },
+      {
+        type: 'inline-link',
+        text: 'Limited tort disputes add time to your case. See how long car accident settlements typically take in Philadelphia.',
+        href: '/blog/how-long-car-accident-settlement-philadelphia',
+        label: 'Settlement timeline guide',
       },
       {
         type: 'callout',
