@@ -99,12 +99,25 @@ All blog content lives in `lib/blog.ts`. To add a new article, add a new object 
 }
 ```
 
+### Content section types (full list)
+
+```ts
+{ type: 'p-lead'; text: string }          // Large opening paragraph
+{ type: 'p'; text: string }               // Regular paragraph
+{ type: 'h2'; text: string }              // Section heading
+{ type: 'ul'; items: string[] }           // Bullet list
+{ type: 'steps'; items: { heading: string; body: string }[] }  // Numbered steps
+{ type: 'callout'; variant: 'warning' | 'info'; title: string; body: string }
+{ type: 'inline-link'; text: string; href: string; label: string }  // Contextual CTA box linking to related page
+```
+
 ### After adding an article
 
 1. Run `npx tsc --noEmit` to check for type errors
 2. Commit and push to main — Vercel deploys automatically
 3. Sitemap regenerates on build (next-sitemap postbuild script)
-4. Go to Google Search Console → URL Inspection → request indexing for the new URL
+4. Go to Google Search Console → URL Inspection → request indexing: `https://www.phillylegalguide.com/blog/[slug]`
+5. See `SEO.md` for full internal linking strategy and on-page checklist
 
 ---
 
