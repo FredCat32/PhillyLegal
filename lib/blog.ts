@@ -575,6 +575,205 @@ export const blogPosts: BlogPost[] = [
       { label: 'How to choose a personal injury lawyer in Philadelphia', href: '/guide/how-to-choose' },
     ],
   },
+  {
+    slug: 'free-lawyers-philadelphia-personal-injury',
+    title: 'Free Lawyers in Philadelphia: What\'s Actually Available (And What Injury Victims Get Wrong)',
+    description:
+      'Looking for a free lawyer in Philadelphia? Here is what legal aid actually covers, what it does not, and why most personal injury victims already qualify for no-cost representation.',
+    datePublished: '2026-04-10',
+    readTime: '7 min read',
+    excerpt:
+      'Most people searching for free lawyers in Philadelphia are personal injury victims who do not know that contingency fees already make personal injury attorneys free unless you win.',
+    content: [
+      {
+        type: 'p-lead',
+        text: 'If you were injured and searched for a free lawyer in Philadelphia, you probably found Philadelphia Legal Assistance or Community Legal Services. You may have called, been told they cannot help with your situation, and hung up more confused than before. Here is what is actually going on and what your options really are.',
+      },
+      {
+        type: 'p',
+        text: 'Philadelphia has genuine free legal aid organizations. They are well-run and they help thousands of people every year. But they handle a specific and limited set of legal problems. Personal injury cases are not on that list. If you were hurt in a car accident, a slip and fall, a workplace injury, or a medical error, those organizations cannot take your case.',
+      },
+      {
+        type: 'p',
+        text: 'The good news is that for personal injury cases specifically, you almost certainly already qualify for no-cost legal representation. That is not a workaround. It is how the entire personal injury legal market works in Pennsylvania.',
+      },
+      {
+        type: 'h2',
+        text: 'What Philadelphia Legal Assistance (PLA) Actually Does',
+      },
+      {
+        type: 'p',
+        text: 'Philadelphia Legal Assistance (philalegal.org) is one of the city\'s main civil legal aid organizations. Their services are free for low-income Philadelphians who cannot afford a private attorney. Income eligibility is determined during intake screening and varies by case type and funding source.',
+      },
+      {
+        type: 'p',
+        text: 'PLA handles: housing issues (evictions, mortgage foreclosure, tangled property titles via the Save Your Home Philly Hotline), public benefits, unemployment compensation, family law and custody matters, consumer issues, and tax problems.',
+      },
+      {
+        type: 'p',
+        text: 'PLA does not handle plaintiff-side personal injury cases. If you were injured and want to pursue compensation, they cannot represent you. Their limited involvement with personal injury is on the defendant side only, meaning if someone is suing you after an accident.',
+      },
+      {
+        type: 'p',
+        text: 'If you need PLA for something they do cover, intake is phone-only. No walk-ins.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'General intake (unemployment, tax, most issues): 215-981-3800, Monday through Thursday, 9:30 a.m. to 12:00 p.m.',
+          'Family Law Hotline (custody, domestic issues): 215-981-3838, Tuesdays and Thursdays only, 9:30 a.m. to 12:00 p.m.',
+          'Save Your Home Philly Hotline (mortgage/tax foreclosure, tangled titles): 215-334-4663, Monday through Friday, 9:00 a.m. to 5:00 p.m.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'What Community Legal Services (CLS) Actually Does',
+      },
+      {
+        type: 'p',
+        text: 'Community Legal Services (clsphila.org) covers similar ground. They serve low-income Philadelphia residents at or below 125% of the federal poverty level. Their focus is housing, public benefits (SNAP, Medicaid, SSI/SSDI, LIHEAP), employment rights, consumer debt, utilities, and criminal record expungement.',
+      },
+      {
+        type: 'p',
+        text: 'CLS does not handle personal injury or workers\' compensation cases. Like PLA, they are explicitly out of scope for those case types.',
+      },
+      {
+        type: 'p',
+        text: 'New clients are accepted by phone only. Call 215-981-3700 and leave a message. An advocate will call you back. Their North Philadelphia Law Center is at 1410 W. Erie Ave and can be reached at 215-227-2400.',
+      },
+      {
+        type: 'h2',
+        text: 'The Philadelphia Bar Association Lawyer Referral Service',
+      },
+      {
+        type: 'p',
+        text: 'The Philadelphia Bar Association runs a lawyer referral service at philadelphiabarlawyers.com (phone: 215-238-6333, Monday through Friday, 9:00 a.m. to 5:00 p.m.). This is different from free legal aid. It is a referral program that connects you with a private attorney for a $35 fee that covers a 30-minute consultation.',
+      },
+      {
+        type: 'p',
+        text: 'The $35 is paid to the Bar Association, not the attorney. After that initial consultation, any further work is between you and the lawyer. The referral service covers a wide range of legal matters including personal injury, so this is a legitimate option if you want to talk to a qualified attorney quickly at low cost.',
+      },
+      {
+        type: 'p',
+        text: 'That said, most personal injury attorneys offer free initial consultations on their own, without the referral service. The Bar Association route makes more sense for legal issues where attorneys do not typically offer free consults, such as contract disputes or estate planning.',
+      },
+      {
+        type: 'h2',
+        text: 'SeniorLAW Center: Free Help for Philadelphia Residents 60 and Older',
+      },
+      {
+        type: 'p',
+        text: 'The SeniorLAW Center provides free legal services specifically to Philadelphia residents age 60 and older, regardless of income. Their focus is elder law issues including Social Security, Medicare and Medicaid, elder abuse, guardianship, housing, and consumer fraud targeting seniors.',
+      },
+      {
+        type: 'p',
+        text: 'Personal injury is generally outside their scope as well, but if you are a senior dealing with a related issue, such as financial exploitation after an accident, it is worth contacting them to understand what help is available.',
+      },
+      {
+        type: 'h2',
+        text: 'The Thing Nobody Tells You About Personal Injury and Legal Fees',
+      },
+      {
+        type: 'p',
+        text: 'Here is the part that most people searching for free lawyers do not know: personal injury attorneys in Philadelphia almost universally work on contingency. You pay nothing to hire them. You pay nothing during the case. If they do not win, you owe nothing in legal fees.',
+      },
+      {
+        type: 'p',
+        text: 'If they do win, their fee comes out of your settlement as a percentage, typically 33% to 40% in Pennsylvania. That means if you recover $100,000, the attorney takes $33,000 to $40,000, and you keep the rest (minus case expenses). You never write a check. There is no bill. The fee comes out of money you would not have had without them.',
+      },
+      {
+        type: 'p',
+        text: 'This structure exists because injured people cannot afford to pay legal fees by the hour while they are out of work and dealing with medical bills. The contingency model flips the risk: the attorney bets their time and resources on your case. If you lose, they absorb that cost.',
+      },
+      {
+        type: 'p',
+        text: 'There is no income threshold to qualify. There is no screening process. Any personal injury victim, regardless of income, can hire a Philadelphia personal injury attorney for zero upfront cost.',
+      },
+      {
+        type: 'callout',
+        variant: 'warning',
+        title: 'Pennsylvania Statute of Limitations: 2 Years',
+        body: 'You have 2 years from the date of your injury to file a personal injury lawsuit in Pennsylvania. This applies to car accidents, slip and fall cases, and most other personal injury claims. Waiting while trying to figure out free legal aid options can cost you that window. A free consultation with a personal injury attorney costs nothing and tells you exactly where you stand.',
+      },
+      {
+        type: 'h2',
+        text: 'When Free Legal Aid IS the Right Answer',
+      },
+      {
+        type: 'p',
+        text: 'Free legal aid organizations do genuinely important work. If your situation involves any of the following, PLA or CLS may be exactly what you need:',
+      },
+      {
+        type: 'ul',
+        items: [
+          'You are facing eviction or a landlord dispute',
+          'Your public benefits (SNAP, Medicaid, SSI) were cut off or denied',
+          'You are dealing with a mortgage foreclosure',
+          'You need help with a family court matter like custody',
+          'You have a debt collection problem or need consumer protection help',
+          'You need a criminal record expunged',
+          'You have an unemployment compensation dispute',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'For all of those situations, especially for low-income Philadelphians, legal aid is the right call. These organizations are skilled at what they do. The important thing is matching your problem to the right resource, and for personal injury, that resource is a contingency-fee attorney, not a legal aid hotline.',
+      },
+      {
+        type: 'h2',
+        text: 'How to Find a Personal Injury Attorney in Philadelphia at No Cost',
+      },
+      {
+        type: 'p',
+        text: 'Every major personal injury firm in Philadelphia offers free initial consultations. You describe what happened, they tell you whether you have a case and what it might be worth. You are not obligated to hire them. There is no charge for the meeting.',
+      },
+      {
+        type: 'p',
+        text: 'At that consultation, ask specifically: do you work on contingency, what is your fee percentage, and how are case expenses handled. Any legitimate personal injury attorney will answer those questions directly. If they are evasive about fees, walk out.',
+      },
+      {
+        type: 'p',
+        text: 'Meet with two or three firms before deciding. Different attorneys have different levels of experience with your specific case type. A firm that handles a lot of medical malpractice cases is not the same as one that handles mostly car accidents. Match the firm to your situation.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does Philadelphia Legal Assistance handle personal injury cases?',
+        answer:
+          'No. Philadelphia Legal Assistance (philalegal.org) handles housing, public benefits, unemployment, family law, and consumer issues for low-income Philadelphians. They do not take plaintiff-side personal injury cases. If you were injured and want to pursue compensation, you need a personal injury attorney, not legal aid.',
+      },
+      {
+        question: 'How do I get a free lawyer for a personal injury case in Philadelphia?',
+        answer:
+          'Personal injury attorneys work on contingency, meaning there is no upfront cost and no fee unless they win your case. This applies regardless of your income. Contact Philadelphia personal injury firms directly and ask for a free consultation. You pay nothing for that meeting and nothing to hire them if they take your case.',
+      },
+      {
+        question: 'What does the Philadelphia Bar Association Lawyer Referral Service cost?',
+        answer:
+          'The Bar Association referral service charges a $35 fee for a 30-minute consultation with a private attorney. That fee goes to the Bar Association. After the initial consultation, any further representation is negotiated directly with the attorney. For personal injury specifically, most attorneys offer free consultations independently, so the referral service is more useful for other legal issues.',
+      },
+      {
+        question: 'Is Community Legal Services free in Philadelphia?',
+        answer:
+          'Yes, for qualifying residents. Community Legal Services is free for low-income Philadelphians at or below 125% of the federal poverty level. They handle housing, benefits, employment rights, debt, and other poverty-law issues. They do not handle personal injury or workers\' compensation cases.',
+      },
+      {
+        question: 'What free legal help is available for seniors in Philadelphia?',
+        answer:
+          'The SeniorLAW Center provides free legal services to Philadelphia residents age 60 and older regardless of income. They focus on elder law issues including Social Security, Medicare, elder abuse, guardianship, and housing. Philadelphia Legal Assistance and Community Legal Services also serve eligible seniors for their covered issue areas.',
+      },
+      {
+        question: 'What if I cannot afford to pay a personal injury lawyer in Philadelphia?',
+        answer:
+          'You do not need to. Personal injury attorneys in Philadelphia work on contingency: no payment upfront, no hourly bills, and no fee at all unless they win your case. Their fee comes as a percentage of your settlement, typically 33% to 40%. If the case does not result in a recovery, you owe nothing. Income is not a factor in qualifying for this arrangement.',
+      },
+    ],
+    relatedLinks: [
+      { label: 'How to choose a personal injury lawyer in Philadelphia', href: '/guide/how-to-choose' },
+      { label: 'What percentage do personal injury lawyers take in Pennsylvania?', href: '/guide/what-percentage' },
+      { label: 'Philadelphia personal injury firm directory', href: '/firms' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
