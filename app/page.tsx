@@ -4,6 +4,7 @@ import { Car, Building2, HardHat, Stethoscope, ArrowRight, CheckCircle2, Shield,
 import CaseTypeCard from '@/components/CaseTypeCard';
 import FAQAccordion from '@/components/FAQAccordion';
 import { faqSchema, breadcrumbSchema } from '@/lib/schema';
+import { blogPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Find the Right Injury Lawyer for Your Philadelphia Case | PhillyLegalGuide',
@@ -72,6 +73,7 @@ const faqs = [
 ];
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';
+const featuredPosts = blogPosts.slice(0, 3);
 
 export default function HomePage() {
   const faqJsonLd = faqSchema(faqs);
@@ -206,6 +208,56 @@ export default function HomePage() {
         </h2>
         <div className="max-w-3xl">
           <FAQAccordion items={faqs} />
+        </div>
+      </section>
+
+      {/* Latest articles */}
+      <section className="section-tint py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="flex items-end justify-between gap-4 mb-8">
+            <div className="max-w-2xl">
+              <h2 className="text-2xl font-bold text-text-primary mb-2">
+                Latest Philadelphia Injury Guides
+              </h2>
+              <p className="text-text-secondary">
+                Start with these practical articles on car accidents, insurance rules, and what
+                to do next after an injury.
+              </p>
+            </div>
+            <Link href="/blog" className="hidden sm:inline-flex text-sm font-medium text-link hover:text-brand transition-colors">
+              View all articles →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {featuredPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="card p-6 hover:shadow-card-hover hover:border-border-brand transition-all duration-200 group"
+              >
+                <p className="text-xs text-text-muted mb-2">
+                  {new Date(post.datePublished).toLocaleDateString('en-US', {
+                    month: 'long',
+                    day: 'numeric',
+                    year: 'numeric',
+                  })}
+                  {' · '}
+                  {post.readTime}
+                </p>
+                <h3 className="font-semibold text-text-primary group-hover:text-brand transition-colors leading-snug mb-2">
+                  {post.title}
+                </h3>
+                <p className="text-sm text-text-secondary leading-relaxed mb-3">{post.excerpt}</p>
+                <span className="inline-flex items-center gap-1 text-sm font-medium text-link group-hover:text-brand transition-colors">
+                  Read article
+                  <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+                </span>
+              </Link>
+            ))}
+          </div>
+          <Link href="/blog" className="sm:hidden inline-flex mt-6 text-sm font-medium text-link hover:text-brand transition-colors">
+            View all articles →
+          </Link>
         </div>
       </section>
 

@@ -12,6 +12,7 @@ const guides = [
   { label: 'How to Choose a Lawyer', href: '/guide/how-to-choose' },
   { label: 'What Percentage Do Lawyers Take?', href: '/guide/what-percentage' },
   { label: 'How Long Does a Case Take?', href: '/guide/how-long' },
+  { label: 'Philadelphia Injury Blog', href: '/blog' },
 ];
 
 const company = [
