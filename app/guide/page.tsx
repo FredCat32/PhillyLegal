@@ -33,7 +33,7 @@ const guides = [
   },
 ];
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com';
 
 export default function GuideHubPage() {
   const breadcrumbJsonLd = breadcrumbSchema([

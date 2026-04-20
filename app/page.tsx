@@ -72,7 +72,7 @@ const faqs = [
   },
 ];
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com';
 const featuredPosts = blogPosts.slice(0, 3);
 
 export default function HomePage() {

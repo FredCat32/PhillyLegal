@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     'Practical articles on Philadelphia personal injury law, car accidents, settlement timelines, insurance tactics, and Pennsylvania-specific legal rules.',
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com';
 
 export default function BlogHubPage() {
   const breadcrumbJsonLd = breadcrumbSchema([

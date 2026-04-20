@@ -8,7 +8,7 @@ const GA4_ID = process.env.NEXT_PUBLIC_GA4_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com'
+    process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com'
   ),
   title: {
     template: '%s | PhillyLegalGuide',

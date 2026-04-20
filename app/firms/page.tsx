@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     'Directory of Philadelphia personal injury law firms. Find firms that handle car accidents, slip and fall, workers\' comp, and medical malpractice in Pennsylvania.',
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com';
 
 const specialtyLabels: Record<string, string> = {
   'car-accident': 'Car Accident',

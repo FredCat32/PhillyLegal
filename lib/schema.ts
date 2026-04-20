@@ -42,7 +42,7 @@ export function articleSchema({
     publisher: {
       '@type': 'Organization',
       name: 'PhillyLegalGuide',
-      url: 'https://phillylegalguide.com',
+      url: 'https://www.phillylegalguide.com',
     },
   };
 }

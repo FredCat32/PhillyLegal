@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://phillylegalguide.com',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.phillylegalguide.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     additionalSitemaps: [],
