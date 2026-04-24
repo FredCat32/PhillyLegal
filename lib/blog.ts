@@ -787,6 +787,225 @@ export const blogPosts: BlogPost[] = [
       { label: 'Philadelphia personal injury firm directory', href: '/firms' },
     ],
   },
+  {
+    slug: 'how-to-file-workers-comp-claim-philadelphia',
+    title: 'How to File a Workers Comp Claim in Philadelphia',
+    description:
+      'Injured at work in Philadelphia? Here is exactly how to file a workers compensation claim in Pennsylvania, what deadlines apply, and what to do if your employer pushes back.',
+    datePublished: '2026-04-24',
+    readTime: '9 min read',
+    excerpt:
+      'Pennsylvania workers comp has strict reporting deadlines most injured workers do not know about. Here is how the process works and what you need to do from day one.',
+    content: [
+      {
+        type: 'p-lead',
+        text: 'If you were injured at work in Philadelphia, you have the right to workers compensation benefits regardless of who caused the accident. You do not have to prove your employer was negligent. You do not have to go to court. But you do have to follow a specific process and meet hard deadlines, and the mistakes people make in the first few days after a workplace injury are the ones that cost them the most.',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania workers compensation covers your medical bills and a portion of your lost wages if you cannot work. The system is no-fault, meaning your employer cannot deny your claim simply because you contributed to the accident. What they can do is deny it for procedural reasons, like a missed reporting deadline or a disputed injury description, if you give them the opportunity.',
+      },
+      {
+        type: 'p',
+        text: 'This guide walks through the process step by step, from the moment you are injured through the point where benefits are either accepted or denied.',
+      },
+      {
+        type: 'h2',
+        text: 'Step 1: Report the Injury to Your Employer Immediately',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania law gives you 120 days from the date of injury to report a workplace accident to your employer. That is the hard deadline. If you miss it, you lose your right to workers compensation benefits entirely, with very limited exceptions.',
+      },
+      {
+        type: 'p',
+        text: 'In practice, you should report the injury the same day it happens. Do not wait until the end of your shift. Do not decide to "see how it feels tomorrow." Report it immediately, in writing if possible, and keep a copy.',
+      },
+      {
+        type: 'p',
+        text: 'Tell your supervisor or HR exactly what happened: the date, time, location, what you were doing, and what part of your body was injured. Do not minimize or downplay the injury. If you say "I just tweaked my back" when you actually have a herniated disc, that description ends up in the official record and the insurer will use it against you. Be accurate and complete.',
+      },
+      {
+        type: 'p',
+        text: 'There is a shorter deadline worth knowing: if your employer or their insurer later claims you did not give notice promptly, benefits can be suspended for the period before you reported. The 120-day deadline is the legal cutoff, but the practical standard is: report as soon as you know you are injured.',
+      },
+      {
+        type: 'callout',
+        variant: 'warning',
+        title: 'Pennsylvania Workers Comp Deadlines',
+        body: 'You have 120 days from the date of injury to report to your employer or you lose all benefits. You have 3 years from the date of injury to file a formal claim petition with the Bureau of Workers Compensation if your employer denies or ignores your claim. For occupational diseases, the clock starts from when you knew or should have known your condition was work-related.',
+      },
+      {
+        type: 'h2',
+        text: 'Step 2: Get Medical Treatment',
+      },
+      {
+        type: 'p',
+        text: 'Seek medical care the same day if at all possible. A workplace injury that goes untreated for several days looks less serious on paper, and insurers use that gap to argue the injury was not work-related or not significant.',
+      },
+      {
+        type: 'p',
+        text: 'In Pennsylvania, your employer controls your choice of doctor for the first 90 days if they maintain a posted list of designated medical providers, called a panel. If your employer has a valid panel list and you saw it before your injury, you must treat with a provider on that list for the first 90 days. Treating outside the panel during that period may result in the employer refusing to pay those medical bills.',
+      },
+      {
+        type: 'p',
+        text: 'After 90 days, you can see any licensed physician you choose. If your employer does not have a valid posted panel, or if you never received notice of it, you can choose your own doctor from day one.',
+      },
+      {
+        type: 'p',
+        text: 'Regardless of who you see, tell the doctor the injury happened at work and describe exactly how it occurred. "Work injury" needs to appear in the medical records. If it does not, the insurer will claim the injury had nothing to do with your job.',
+      },
+      {
+        type: 'h2',
+        text: 'Step 3: Understand What Your Employer Must Do',
+      },
+      {
+        type: 'p',
+        text: 'Once you report a work injury, your employer is required to file a report with their workers compensation insurer. The insurer then has 21 days to either accept or deny your claim.',
+      },
+      {
+        type: 'p',
+        text: 'If they accept, you will receive a Notice of Compensation Payable (NCP) or an Agreement for Compensation. Read it carefully. Make sure the injury description matches what actually happened and that all injured body parts are listed. If something is wrong or missing, do not sign without talking to an attorney first. What gets listed on that form is what the insurer considers covered for the life of your claim.',
+      },
+      {
+        type: 'p',
+        text: 'If they deny, you will receive a Notice of Workers Compensation Denial. This does not mean you have no case. It means you need to file a claim petition to fight it.',
+      },
+      {
+        type: 'p',
+        text: 'There is a third option: the insurer issues a Notice of Temporary Compensation Payable (NTCP). This starts benefits while they investigate but allows them to stop payments within 90 days without formally denying your claim. If they stop payments under an NTCP, they must issue either an NCP accepting the claim or a denial.',
+      },
+      {
+        type: 'h2',
+        text: 'What Workers Comp Benefits Cover in Pennsylvania',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania workers compensation covers two main categories: medical benefits and wage loss benefits.',
+      },
+      {
+        type: 'p',
+        text: 'Medical benefits pay for all reasonable and necessary medical treatment related to your work injury, with no copays or deductibles. This includes doctor visits, surgery, physical therapy, prescription medications, and medical equipment.',
+      },
+      {
+        type: 'p',
+        text: 'Wage loss benefits replace a portion of your income if your injury prevents you from working or limits you to lighter-duty work at lower pay. The standard benefit for total disability is 66.67% of your pre-injury average weekly wage, up to a cap set by the state each year. For 2025, the maximum weekly benefit is $1,325. If you return to a lower-paying light-duty job, you may receive partial disability benefits equal to 66.67% of the difference between your pre-injury wage and your current wage.',
+      },
+      {
+        type: 'p',
+        text: 'Workers comp does not cover pain and suffering, which is one of the main differences between a workers comp claim and a personal injury lawsuit. If a third party other than your employer caused or contributed to the injury, such as a defective piece of equipment or a negligent contractor, you may have a separate personal injury claim that does include pain and suffering damages. That parallel claim is worth discussing with an attorney.',
+      },
+      {
+        type: 'h2',
+        text: 'What to Do If Your Claim Is Denied',
+      },
+      {
+        type: 'p',
+        text: 'A denial is not the end. You have 3 years from the date of injury to file a claim petition with the Bureau of Workers Compensation (BWC). Once filed, the petition goes to a workers compensation judge who will hear both sides and issue a decision.',
+      },
+      {
+        type: 'p',
+        text: 'The hearing process involves evidence, witnesses, and often conflicting medical opinions. Your employer and their insurer will have an attorney. You should too.',
+      },
+      {
+        type: 'p',
+        text: 'Workers compensation attorneys in Pennsylvania work on contingency for disputed claims. You typically pay no upfront fees. Their fee comes from your recovery and is capped by statute at 20% of your total award, subject to approval by the workers comp judge.',
+      },
+      {
+        type: 'inline-link',
+        text: 'Looking for a workers comp attorney in Philadelphia? See how the matching process works.',
+        href: '/types/workers-comp',
+        label: 'Workers comp attorneys in Philadelphia',
+      },
+      {
+        type: 'h2',
+        text: 'Common Tactics Employers and Insurers Use',
+      },
+      {
+        type: 'p',
+        text: 'Knowing what to expect makes it harder for the insurer to catch you off guard.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Claiming the injury was not work-related. Insurers frequently argue your injury is a pre-existing condition unrelated to your job. Your medical records from the day of injury and statements from your treating physician are the main defense against this.',
+          'Requesting an independent medical examination (IME). Pennsylvania law allows the insurer to require you to see a physician of their choosing. These examinations are called independent but are typically scheduled with doctors who find in favor of the insurer. Prepare thoroughly and bring documentation of all your symptoms and treatment. An IME that contradicts your treating doctor often triggers a dispute that ends up before a workers comp judge.',
+          'Offering a quick settlement (compromise and release). Insurers sometimes approach injured workers with a lump-sum settlement offer, called a compromise and release agreement. Accepting closes your claim permanently, including your right to future medical benefits. If your injury requires ongoing treatment, signing a compromise and release too early can leave you with no coverage for future surgeries or care. Do not sign without independent legal advice.',
+          'Surveillance. Insurers hire investigators to watch claimants, especially those receiving total disability benefits. Activities that look inconsistent with your claimed limitations can be used to reduce or terminate benefits. This does not mean you need to stay inside. It means be accurate about what you can and cannot do, and be consistent.',
+          'Light-duty job offers. If your employer offers you a light-duty position, you are generally required to attempt it if the restrictions are consistent with your medical limitations. Refusing a valid light-duty offer without a medical reason can result in your wage loss benefits being suspended.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Can Your Employer Fire You for Filing a Workers Comp Claim?',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania is an at-will employment state, which means your employer can generally terminate your employment for any legal reason, or no reason. However, firing someone specifically because they filed a workers compensation claim is a violation of Pennsylvania law and can result in a separate lawsuit for wrongful termination.',
+      },
+      {
+        type: 'p',
+        text: 'In practice, employers rarely say outright that a termination is retaliation for a comp claim. They use other stated reasons. If you believe your termination was connected to your workers comp filing, document everything: the timing, any comments your employer made, changes in how you were treated after you reported the injury.',
+      },
+      {
+        type: 'p',
+        text: 'Being terminated does not stop your workers comp benefits if your claim is valid. You can continue to receive medical and wage loss benefits even after losing your job, as long as the injury limits your ability to work.',
+      },
+      {
+        type: 'h2',
+        text: 'When to Contact a Philadelphia Workers Comp Attorney',
+      },
+      {
+        type: 'p',
+        text: 'If your claim is accepted and your employer is paying your benefits and medical bills without issue, you may not need an attorney immediately. But contact one before signing any settlement agreement or compromise and release.',
+      },
+      {
+        type: 'p',
+        text: 'Contact an attorney immediately if: your claim is denied, your benefits are stopped or reduced without explanation, your employer is pressuring you to return to work before your doctor clears you, you receive an IME notice, or you are offered a lump-sum settlement.',
+      },
+      {
+        type: 'p',
+        text: 'The free consultation costs you nothing. An attorney can tell you whether the insurer is handling your claim correctly and whether you are leaving benefits on the table.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'How long do I have to report a work injury in Pennsylvania?',
+        answer:
+          'You have 120 days from the date of injury to report it to your employer. Missing this deadline means losing your right to workers compensation benefits. Report the injury the same day it happens if at all possible, in writing, and keep a copy of what you submitted.',
+      },
+      {
+        question: 'What happens after I file a workers comp claim in Pennsylvania?',
+        answer:
+          'Your employer reports the injury to their insurer, who then has 21 days to accept or deny your claim. If accepted, you receive a Notice of Compensation Payable and benefits begin. If denied, you can file a claim petition with the Bureau of Workers Compensation within 3 years and have the dispute heard by a workers compensation judge.',
+      },
+      {
+        question: 'Can I choose my own doctor for a workers comp injury in Pennsylvania?',
+        answer:
+          'For the first 90 days, you must treat with a provider on your employer\'s posted panel list if one exists and you were given proper notice of it. After 90 days, you can choose any licensed physician. If your employer does not have a valid panel list, you can see your own doctor from the start.',
+      },
+      {
+        question: 'How much does workers comp pay in Pennsylvania?',
+        answer:
+          'Wage loss benefits pay 66.67% of your pre-injury average weekly wage up to the state maximum. The maximum for 2025 is $1,325 per week. Workers comp also covers all reasonable and necessary medical treatment related to your injury, with no copays or deductibles.',
+      },
+      {
+        question: 'What if my workers comp claim is denied in Philadelphia?',
+        answer:
+          'You can file a claim petition with the Bureau of Workers Compensation within 3 years of your injury. The petition goes before a workers comp judge who will hear both sides. Most denied claimants benefit from having an attorney. Workers comp attorneys work on contingency with fees capped by statute at 20% of your award.',
+      },
+      {
+        question: 'Can I sue my employer instead of filing workers comp?',
+        answer:
+          'Generally no. In Pennsylvania, workers compensation is the exclusive remedy against your employer for workplace injuries. You cannot sue your employer in civil court. However, if a third party, such as an equipment manufacturer or a contractor, contributed to your injury, you may have a separate personal injury lawsuit against them in addition to your workers comp claim.',
+      },
+    ],
+    relatedLinks: [
+      { label: 'Workers comp attorneys in Philadelphia', href: '/types/workers-comp' },
+      { label: 'How to choose a personal injury lawyer in Philadelphia', href: '/guide/how-to-choose' },
+      { label: 'What percentage do personal injury lawyers take in Pennsylvania?', href: '/guide/what-percentage' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
