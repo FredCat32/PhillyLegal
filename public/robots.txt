@@ -1,21 +1,14 @@
-# *
 User-agent: *
 Allow: /
+Disallow: /quiz/results
 
-# GPTBot
 User-agent: GPTBot
 Allow: /
 
-# PerplexityBot
 User-agent: PerplexityBot
 Allow: /
 
-# ClaudeBot
 User-agent: ClaudeBot
 Allow: /
 
-# Host
-Host: https://phillylegalguide.com
-
-# Sitemaps
-Sitemap: https://phillylegalguide.com/sitemap.xml
+Sitemap: https://www.phillylegalguide.com/sitemap.xml
