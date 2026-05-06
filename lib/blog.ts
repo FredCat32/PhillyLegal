@@ -1006,6 +1006,228 @@ export const blogPosts: BlogPost[] = [
       { label: 'What percentage do personal injury lawyers take in Pennsylvania?', href: '/guide/what-percentage' },
     ],
   },
+  {
+    slug: 'workers-comp-claim-denied-pennsylvania-what-to-do',
+    title: 'Workers Comp Claim Denied in Pennsylvania: What to Do Next',
+    description:
+      'Pennsylvania denied your workers comp claim? A denial is not final. Here is exactly what to do, what the appeals process looks like, and why most denials can be fought.',
+    datePublished: '2026-05-06',
+    readTime: '9 min read',
+    excerpt:
+      'A workers comp denial in Pennsylvania is not the end. You have the right to fight it before a workers compensation judge, and most denied claimants who hire an attorney win benefits.',
+    content: [
+      {
+        type: 'p-lead',
+        text: 'Getting a workers comp denial letter does not mean your claim is over. In Pennsylvania, a denial is the beginning of a formal dispute process, not the end of your rights. You have three years from the date of injury to file a claim petition and have your case heard by a workers compensation judge. Most denials can be challenged, and many are overturned.',
+      },
+      {
+        type: 'p',
+        text: 'The problem is that most injured workers do not know this. They receive a Notice of Workers Compensation Denial, assume the decision is final, and walk away from benefits they were legally entitled to. The insurer is counting on exactly that reaction.',
+      },
+      {
+        type: 'p',
+        text: 'This article explains why claims get denied, what your options are, and how the appeal process actually works in Pennsylvania.',
+      },
+      {
+        type: 'h2',
+        text: 'Why Workers Comp Claims Get Denied in Pennsylvania',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania insurers deny workers comp claims for a set of predictable reasons. Understanding which reason applies to your case tells you what evidence you need to fight back.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'The injury was not reported within 120 days. Pennsylvania law requires you to report a work injury to your employer within 120 days of the date it occurred. If the insurer claims you missed this window, the first thing to verify is whether your report was actually documented. Verbal reports count if you can prove they happened.',
+          'The insurer disputes that the injury is work-related. This is the most common denial reason. The insurer argues your injury was pre-existing, happened outside of work, or is not connected to your job duties. Medical evidence linking the injury to your work is the main way to overcome this.',
+          'The injury was not reported correctly. If the injury description in your initial report does not match your current diagnosis, the insurer may deny the claim or limit coverage to the body parts originally listed. A herniated disc that was first described as a "back strain" is a common example.',
+          'You did not seek treatment within the employer panel. If your employer maintained a valid posted list of approved medical providers and you treated outside that panel for the first 90 days, the insurer may refuse to pay those bills. Whether the panel was properly posted and noticed is a factual question that can be challenged.',
+          'The insurer disputes whether you are disabled. Even if the injury is acknowledged, the insurer may claim you are able to return to full-duty or light-duty work and deny wage loss benefits accordingly.',
+          'The claim was filed after the three-year statute of limitations. If your injury was in the past and you never filed a formal claim, the insurer may argue the window has closed. The three-year clock starts on the date of injury, not the date of denial.',
+        ],
+      },
+      {
+        type: 'callout',
+        variant: 'warning',
+        title: 'Pennsylvania Workers Comp Deadlines',
+        body: 'You have 120 days from the date of injury to report the injury to your employer or you lose your right to benefits entirely. You then have 3 years from the date of injury to file a formal claim petition with the Bureau of Workers Compensation if your employer or their insurer denies your claim. Do not wait. The closer you get to that three-year deadline, the harder it is to gather evidence and the fewer options you have.',
+      },
+      {
+        type: 'h2',
+        text: 'Your Options After a Denial',
+      },
+      {
+        type: 'p',
+        text: 'When you receive a Notice of Workers Compensation Denial, you have two practical paths.',
+      },
+      {
+        type: 'p',
+        text: 'The first is to do nothing, which is what the insurer wants. The second is to file a claim petition with the Bureau of Workers Compensation (BWC). Filing a claim petition is how you formally challenge the denial and bring your case before a workers compensation judge.',
+      },
+      {
+        type: 'p',
+        text: 'You do not need to go to court in the traditional sense. Workers compensation cases in Pennsylvania are heard by specialized workers compensation judges, not in common pleas court. The process is adversarial but far less formal than a civil trial.',
+      },
+      {
+        type: 'p',
+        text: 'There is also a third scenario worth understanding. Sometimes insurers issue a Notice of Temporary Compensation Payable (NTCP), which starts paying benefits while the investigation continues, then stop payments and issue a denial within 90 days. If this happened to you, the same rules apply: file a claim petition to contest the denial.',
+      },
+      {
+        type: 'h2',
+        text: 'How the Claim Petition Process Works',
+      },
+      {
+        type: 'steps',
+        items: [
+          {
+            heading: 'File a claim petition with the Bureau of Workers Compensation',
+            body: 'Your attorney files the petition through the BWC. The petition describes the injury, how it occurred, and what benefits you are seeking. The insurer then files an answer. The case is assigned to a workers compensation judge at the appropriate BWC district office.',
+          },
+          {
+            heading: 'Attend a hearing before a workers compensation judge',
+            body: 'Workers comp hearings in Pennsylvania are held at BWC district offices, not courthouses. The process is less formal than a trial but still structured. You will testify about your injury and how it affects your ability to work. Medical witnesses and depositions are standard. The insurer presents its own evidence and medical opinions.',
+          },
+          {
+            heading: 'The judge issues a decision',
+            body: 'The workers comp judge reviews all evidence and testimony and issues a written decision granting or denying benefits. This typically takes several weeks to months after the final hearing. If the judge rules in your favor, the insurer must begin paying benefits. If the judge rules against you, the decision can be appealed.',
+          },
+          {
+            heading: 'Appeal if necessary',
+            body: 'A workers comp judge decision can be appealed to the Workers Compensation Appeal Board. After that, further appeals can go to Commonwealth Court. Most cases resolve at the judge level or during the hearing process, but the appellate options exist if needed.',
+          },
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Independent Medical Examinations and What to Expect',
+      },
+      {
+        type: 'p',
+        text: 'After you file a claim petition, or even before, the insurer will almost certainly schedule an independent medical examination (IME). Pennsylvania law gives the insurer the right to have you examined by a physician of their choosing.',
+      },
+      {
+        type: 'p',
+        text: 'The word "independent" is misleading. IME physicians are typically selected from a pool of doctors who work regularly for insurers. Their reports tend to find in favor of the insurer. That does not mean you cannot overcome them, but you should walk in prepared.',
+      },
+      {
+        type: 'p',
+        text: 'Bring documentation to the IME: a written list of your symptoms, a description of what you cannot do at work and at home, and a summary of your treatment to date. Answer questions accurately and completely. Do not exaggerate, but do not minimize either. What you say at that examination will end up in a written report that the insurer uses in the hearing.',
+      },
+      {
+        type: 'p',
+        text: 'Your treating physician is your most important witness. Before any IME, make sure your doctor has documented your functional limitations clearly: what physical activities you cannot perform, how long those limitations are expected to last, and the causal connection between your work duties and your diagnosis. Vague medical records are the main reason claimants with legitimate injuries lose cases.',
+      },
+      {
+        type: 'inline-link',
+        text: 'Looking for a workers comp attorney in Philadelphia to help fight your denial?',
+        href: '/types/workers-comp',
+        label: 'Workers comp attorneys in Philadelphia',
+      },
+      {
+        type: 'h2',
+        text: 'What Evidence You Need to Win a Denied Workers Comp Claim',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Medical records that clearly state the injury is work-related. Every treatment note should reference the work accident. If your records say "back pain" without connecting it to your job, the insurer will exploit that gap.',
+          'Imaging results that objectively document the injury. MRI, X-ray, and CT findings are harder for an IME doctor to dismiss than a physician note alone. If you have not had imaging done, request a referral.',
+          'Your written injury report and proof of submission. This is your evidence that you met the 120-day reporting requirement. If you reported verbally, get a statement from anyone who witnessed the conversation.',
+          'Witness statements from coworkers who saw the accident or know your work conditions. Coworker testimony is especially valuable when the insurer claims the injury was not work-related.',
+          'Documentation of lost wages and employment. Pay stubs, tax records, and a letter from your employer showing your job duties are used to calculate your average weekly wage and your wage loss benefits.',
+          'A detailed record of how your injury affects daily activities. A journal written in real time carries weight. When did you miss work? What can you not lift, carry, or perform? What have you stopped doing at home because of the injury?',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Insurer Tactics You Will See at a Workers Comp Hearing',
+      },
+      {
+        type: 'p',
+        text: 'The insurer will have an attorney. Their goal is to cast doubt on whether the injury happened at work, how serious it is, and whether you are as limited as you claim. The tactics are predictable.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Pointing to inconsistencies in your medical records. If the injury description changed between your initial report and your treatment notes, they will highlight it. Make sure your account of how the injury happened is consistent throughout every document.',
+          'Using the IME report to contradict your treating physician. The insurer will argue that their doctor found no objective evidence of disability, or that you could perform a desk job, or that your condition is degenerative rather than work-caused. Your attorney uses deposition testimony from your treating doctor to counter this.',
+          'Surveillance footage. Insurers hire investigators to observe claimants, particularly those receiving total disability benefits. Video showing you loading groceries or playing with your kids can be used to argue you are not as limited as you claim. This does not mean you have to stay home. It means you need to be accurate about what you can and cannot do.',
+          'Offering a light-duty job designed to fail. If your employer offers you a position that technically fits within your medical restrictions but is not a real job in terms of hours, pay, or function, and you decline or fail, the insurer can move to suspend your wage benefits. An attorney can challenge whether the job offer was legitimate.',
+          'Delay tactics. The longer a dispute drags on, the more likely a claimant is to give up or accept a lower settlement out of financial desperation. Knowing this is a strategy helps you prepare for a longer process rather than a short one.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Should You Hire an Attorney for a Denied Workers Comp Claim?',
+      },
+      {
+        type: 'p',
+        text: 'For a denied claim, yes. Once a claim is disputed, the process is formal and adversarial. The insurer has an attorney whose job is to minimize or eliminate your benefits. Going through a claim petition without legal representation puts you at a significant disadvantage.',
+      },
+      {
+        type: 'p',
+        text: 'Pennsylvania workers compensation attorneys work on contingency. You pay nothing upfront. Their fee is paid from your benefits and is capped by statute at 20% of your recovery, subject to approval by the workers compensation judge. That cap makes the risk to you low.',
+      },
+      {
+        type: 'p',
+        text: 'An attorney handles the petition filing, prepares your medical evidence, takes depositions from your treating physicians, cross-examines the IME doctor, and argues your case before the judge. The practical value is significant even in straightforward cases. In a complex denied claim, it is close to essential.',
+      },
+      {
+        type: 'h2',
+        text: 'What About a Compromise and Release (Lump Sum Settlement)?',
+      },
+      {
+        type: 'p',
+        text: 'At some point in the dispute process, the insurer may offer to settle your claim with a lump-sum payment called a compromise and release. This closes your case permanently, including your right to future medical benefits for the injury.',
+      },
+      {
+        type: 'p',
+        text: 'A compromise and release can make sense in the right circumstances. If your injury is permanent, your treatment is complete, and the lump sum is calculated fairly, it may be a better outcome than years of ongoing litigation. But the insurer will almost always offer less than the case is worth, particularly early in the dispute.',
+      },
+      {
+        type: 'p',
+        text: 'Never sign a compromise and release without independent legal advice. The future medical component alone, the right to have all treatment for your work injury paid for indefinitely, can be worth more than the cash being offered. Once you sign, you cannot reopen the claim.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'What does it mean when workers comp is denied in Pennsylvania?',
+        answer:
+          'A denial means the insurer has formally rejected your claim by issuing a Notice of Workers Compensation Denial. It is not a final decision. You have the right to file a claim petition with the Bureau of Workers Compensation and have your case heard by a workers compensation judge. A denial is the start of a dispute, not the end of your rights.',
+      },
+      {
+        question: 'How long do I have to appeal a workers comp denial in Pennsylvania?',
+        answer:
+          'You have 3 years from the date of injury to file a claim petition with the Bureau of Workers Compensation. The clock starts on the date the injury occurred, not the date of denial. Do not wait. Evidence becomes harder to gather over time, and getting close to the deadline limits your options.',
+      },
+      {
+        question: 'What are the most common reasons workers comp is denied in Pennsylvania?',
+        answer:
+          'The most common reasons are: the insurer claims the injury is not work-related or is a pre-existing condition, the injury was not reported within the 120-day deadline, the injury description does not match the diagnosis, or you treated outside the employer panel during the first 90 days. Each of these can be challenged.',
+      },
+      {
+        question: 'Can I get a lawyer for a denied workers comp claim in Pennsylvania?',
+        answer:
+          'Yes, and you should. Workers comp attorneys in Pennsylvania work on contingency for disputed claims. You pay nothing upfront. Their fee is paid from your recovery and is capped by statute at 20%, subject to judge approval. The insurer has a defense attorney working against you. You should have one working for you.',
+      },
+      {
+        question: 'What happens at a workers comp hearing in Pennsylvania?',
+        answer:
+          'Hearings are held at Bureau of Workers Compensation district offices before a workers compensation judge. You testify about your injury and its effect on your ability to work. Medical evidence and physician depositions are typically part of the record. The insurer presents its own evidence, usually including an IME report. The judge reviews everything and issues a written decision.',
+      },
+      {
+        question: 'What is a compromise and release in Pennsylvania workers comp?',
+        answer:
+          'A compromise and release is a lump-sum settlement that permanently closes your workers comp claim, including your right to future medical benefits. It can be appropriate if your treatment is complete and the amount is fair, but insurers typically offer less than the case is worth. Never sign one without reviewing it with an attorney first.',
+      },
+    ],
+    relatedLinks: [
+      { label: 'Workers comp attorneys in Philadelphia', href: '/types/workers-comp' },
+      { label: 'How to file a workers comp claim in Philadelphia', href: '/blog/how-to-file-workers-comp-claim-philadelphia' },
+      { label: 'How to choose a personal injury lawyer in Philadelphia', href: '/guide/how-to-choose' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

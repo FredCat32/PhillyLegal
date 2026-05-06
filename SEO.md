@@ -23,7 +23,6 @@ After 3 months of consistent publishing, drop to 1 per week to maintain momentum
 ## Blog Article Priorities
 
 ### Remaining from original TODO list
-- `workers-comp-claim-denied-pennsylvania-what-to-do`
 - `how-much-is-a-slip-and-fall-case-worth-philadelphia`
 - `how-long-slip-and-fall-settlement-philadelphia`
 - `medical-malpractice-statute-of-limitations-pennsylvania`
@@ -107,6 +106,14 @@ limited-tort-vs-full-tort → /guide/how-to-choose
 free-lawyers-philadelphia → /guide/how-to-choose
 free-lawyers-philadelphia → /guide/what-percentage
 free-lawyers-philadelphia → /firms
+
+how-to-file-workers-comp → /types/workers-comp ✓ inline
+how-to-file-workers-comp → /guide/how-to-choose
+how-to-file-workers-comp → /guide/what-percentage
+
+workers-comp-claim-denied → /types/workers-comp ✓ inline
+workers-comp-claim-denied → /blog/how-to-file-workers-comp-claim-philadelphia
+workers-comp-claim-denied → /guide/how-to-choose
 ```
 
 When you add a new article, update this map.
