@@ -23,7 +23,6 @@ After 3 months of consistent publishing, drop to 1 per week to maintain momentum
 ## Blog Article Priorities
 
 ### Remaining from original TODO list
-- `how-much-is-a-slip-and-fall-case-worth-philadelphia`
 - `how-long-slip-and-fall-settlement-philadelphia`
 - `medical-malpractice-statute-of-limitations-pennsylvania`
 
@@ -110,6 +109,10 @@ free-lawyers-philadelphia → /firms
 how-to-file-workers-comp → /types/workers-comp ✓ inline
 how-to-file-workers-comp → /guide/how-to-choose
 how-to-file-workers-comp → /guide/what-percentage
+
+how-much-is-a-slip-and-fall-case-worth → /types/slip-and-fall ✓ inline
+how-much-is-a-slip-and-fall-case-worth → /guide/how-to-choose
+how-much-is-a-slip-and-fall-case-worth → /guide/what-percentage
 
 workers-comp-claim-denied → /types/workers-comp ✓ inline
 workers-comp-claim-denied → /blog/how-to-file-workers-comp-claim-philadelphia
